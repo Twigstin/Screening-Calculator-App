@@ -190,7 +190,9 @@ select {
         opacity: 0;
     }
 }
-
+.subject label {
+    font-size: 20px;
+}
 
 
 #pop-head {
@@ -256,7 +258,4 @@ select {
     #main {
         width: 95%;
     }
-    #olevel label {
-     font-size: 20px;
-   }
 }
