@@ -145,7 +145,6 @@ select {
     align-items: center;
     margin: 0;
     display: none;
-    
     transition: opacity 0.3s ease;
 }
 #pop-ctn.show {
