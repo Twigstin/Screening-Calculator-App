@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>FUTO Aggregate Screening Score Calculator</title>
+        <link rel="stylesheet" href="screen.css">
+    </head>
+    <body>
+        <!--for the logo-->
+        <div id="logo"><img src="FUTO_logo.png" id="logo-image" alt="image of futo logo"></div>
+        <main>
+            <fieldset>
+                <p id="heading">Calculate Screening Score</p>
+                <div id="dept">
+                    <label for="department">Department:</label>
+                    <select id="department">
+                        <option id="select">Select Department</option>
+                        <option id="science">Science</option>
+                        <option id="commercial">Commercial</option>
+                        <option id="art">Art</option>
+                    </select>
+                </div>
+                <fieldset id="olevel">
+                    <legend id="olevel-grades">O'Level Grades</legend>
+                    <div  class="sections">
+                        <div class="subject">
+                            <label for="first">Subject 1:</label>
+                            <select id="first">
+                                <option id="english">Use of English</option>
+                            </select>
+                        </div>
+                        <div class="grade">
+                            <label for="grade-one">Grade:</label>
+                            <select id="grade-one">
+                                <option class="a1">A1</option>
+                                <option class="b2">B2</option>
+                                <option class="b3">B3</option>
+                                <option class="c4">C4</option>
+                                <option class="c5">C5</option>
+                                <option class="c6">C6</option>
+                                <option class="d7">D7</option>
+                                <option class="e8">E8</option>
+                                <option class="f9">F9</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sections">
+                        <div class="subject">
+                            <label for="second">Subject 2:</label>
+                            <select id="second">
+                                <option class="select">Select Subject</option>
+                                <option class="mathematics">Mathematics</option>
+                                <option class="agric">Agricultural Science</option>
+                                <option class="biology">Biology</option>
+                                <option class="chemistry">Chemistry</option>
+                                <option class="physics">Physics</option>
+                                <option class="art">Art</option>
+                                <option class="music">Music</option>
+                                <option class="crs">Christian Religious Studies(CRS)</option>
+                                <option class="irs">Islamic Religious Studies</option>
+                                <option class="commerce">Commerce</option>
+                                <option class="arabic">Arabic</option>
+                                <option class="computer">Computer Studies</option>
+                                <option class="economics">Economics</option>
+                                <option class="french">French</option>
+                                <option class="geography">Geography</option>
+                                <option class="government">Government</option>
+                                <option class="hausa">Hausa</option>
+                                <option class="history">History</option>
+                                <option class="home-eco">Home Economics</option>
+                                <option class="igbo">Igbo</option>
+                                <option class="literature">Literature in English</option>
+                                <option class="account">Principles of Accounts</option>
+                                <option class="yoruba">Yoruba</option>
+                            </select>
+                        </div>
+                        <div class="grade">
+                            <label for="grade-two">Grade:</label>
+                            <select id="grade-two">
+                                <option class="a1">A1</option>
+                                <option class="b2">B2</option>
+                                <option class="b3">B3</option>
+                                <option class="c4">C4</option>
+                                <option class="c5">C5</option>
+                                <option class="c6">C6</option>
+                                <option class="d7">D7</option>
+                                <option class="e8">E8</option>
+                                <option class="f9">F9</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sections">
+                        <div class="subject">
+                            <label for="third">Subject 3:</label> 
+                            <select id="third">
+                                <option class="select">Select Subject</option>
+                                <option class="mathematics">Mathematics</option>
+                                <option class="agric">Agricultural Science</option>
+                                <option class="biology">Biology</option>
+                                <option class="chemistry">Chemistry</option>
+                                <option class="physics">Physics</option>
+                                <option class="art">Art</option>
+                                <option class="music">Music</option>
+                                <option class="crs">Christian Religious Studies(CRS)</option>
+                                <option class="irs">Islamic Religious Studies</option>
+                                <option class="commerce">Commerce</option>
+                                <option class="arabic">Arabic</option>
+                                <option class="computer">Computer Studies</option>
+                                <option class="economics">Economics</option>
+                                <option class="french">French</option>
+                                <option class="geography">Geography</option>
+                                <option class="government">Government</option>
+                                <option class="hausa">Hausa</option>
+                                <option class="history">History</option>
+                                <option class="home-eco">Home Economics</option>
+                                <option class="igbo">Igbo</option>
+                                <option class="literature">Literature in English</option>
+                                <option class="account">Principles of Accounts</option>
+                                <option class="yoruba">Yoruba</option>
+                            </select>
+                        </div>
+                        <div class="grade">
+                            <label for="grade-three">Grade:</label>
+                            <select id="grade-three">
+                                <option class="a1">A1</option>
+                                <option class="b2">B2</option>
+                                <option class="b3">B3</option>
+                                <option class="c4">C4</option>
+                                <option class="c5">C5</option>
+                                <option class="c6">C6</option>
+                                <option class="d7">D7</option>
+                                <option class="e8">E8</option>
+                                <option class="f9">F9</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sections">
+                        <div class="subject">
+                            <label for="fourth">Subject 4:</label> 
+                            <select id="fourth">
+                                <option class="select">Select Subject</option>
+                                <option class="mathematics">Mathematics</option>
+                                <option class="agric">Agricultural Science</option>
+                                <option class="biology">Biology</option>
+                                <option class="chemistry">Chemistry</option>
+                                <option class="physics">Physics</option>
+                                <option class="art">Art</option>
+                                <option class="music">Music</option>
+                                <option class="crs">Christian Religious Studies(CRS)</option>
+                                <option class="irs">Islamic Religious Studies</option>
+                                <option class="commerce">Commerce</option>
+                                <option class="arabic">Arabic</option>
+                                <option class="computer">Computer Studies</option>
+                                <option class="economics">Economics</option>
+                                <option class="french">French</option>
+                                <option class="geography">Geography</option>
+                                <option class="government">Government</option>
+                                <option class="hausa">Hausa</option>
+                                <option class="history">History</option>
+                                <option class="home-eco">Home Economics</option>
+                                <option class="igbo">Igbo</option>
+                                <option class="literature">Literature in English</option>
+                                <option class="account">Principles of Accounts</option>
+                                <option class="yoruba">Yoruba</option>
+                            </select>
+                        </div>
+                        <div class="grade">
+                            <label for="grade-four">Grade:</label>
+                            <select id="grade-four">
+                                <option class="a1">A1</option>
+                                <option class="b2">B2</option>
+                                <option class="b3">B3</option>
+                                <option class="c4">C4</option>
+                                <option class="c5">C5</option>
+                                <option class="c6">C6</option>
+                                <option class="d7">D7</option>
+                                <option class="e8">E8</option>
+                                <option class="f9">F9</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+                <div id="sit">
+                    <label for="sittings">Number of Sittings:</label>
+                    <select id="sittings">
+                        <option id="pick">Select Sitting</option>
+                        <option id="one">1</option>
+                        <option id="two">2</option>
+                    </select>
+                </div>
+                <div id="jamb">
+                    <label for="jamb-score">Jamb Score: </label>
+                    <input type="number" min="0" max="400" id="jamb-score" required placeholder="Enter Your Jamb Score">
+                </div>
+                <div id="calculate">
+                    <button type="button" id="submit">Calculate</button>
+                </div>
+            </fieldset>
+            <div id="pop-ctn">
+                <div id="popup">
+                    <p id="pop-head">Screening Result</p>
+                    <p id="pop-score"></p>
+                    <p id="pop-info">AVERAGE AGGREGATE SCORE</p>
+                    <div id="close-ctn">
+                        <button type="button" id="close-btn">Close</button>
+                    </div>
+                </div>
+            </div>
+            <script src="screen.js"></script>
+        </main>
+    </body>
+</html>
