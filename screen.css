@@ -231,7 +231,7 @@ select {
 
 @media (max-width: 700px){
     fieldset {
-        width: 70%;
+        width: 80%;
     }
     
 }
@@ -243,6 +243,12 @@ select {
 @media (max-width: 700px){
     #heading {
         font-size: 1.8rem;
+    }
+    
+}
+@media (max-width: 350px){
+    fieldset {
+        width: 80%;
     }
     
 }
