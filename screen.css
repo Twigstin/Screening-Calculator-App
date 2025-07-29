@@ -246,9 +246,9 @@ select {
     }
     
 }
-@media (max-width: 350px){
+@media (max-width: 370px){
     fieldset {
-        width: 90%;
+        width: 95%;
     }
     
 }
