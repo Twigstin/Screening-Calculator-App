@@ -13,6 +13,9 @@ fieldset {
     color: black;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
 }
+main {
+    padding: 10px;
+}
 
 #heading {
     width: fit-content;
