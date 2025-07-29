@@ -1,9 +1,5 @@
 body {
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background-image: url('screenFiles/pexels-aronvisuals-1743165.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 fieldset {
     background-color: white;
