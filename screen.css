@@ -14,7 +14,8 @@ fieldset {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
 }
 main {
-    padding: 10px;
+    
+    padding: 5px;
 }
 
 #heading {
@@ -251,7 +252,7 @@ select {
 }
 @media (max-width: 350px){
     fieldset {
-        width: 100%;
+        width: 90%;
     }
     
 }
