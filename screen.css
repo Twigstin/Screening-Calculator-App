@@ -126,11 +126,10 @@ select {
 
 #logo {
     display: block;
-    margin: auto;
+    margin: 20px auto 5px auto;
     width: 200px;
     height: 200px;
     border: none;
-    margin-top: 20px;
 }
 #logo-image {
     width: 100%;
